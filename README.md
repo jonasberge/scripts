@@ -13,3 +13,6 @@ This repository holds the following programs:
 - `brightness`  
   Brightness control of my external monitor,
   to increase and decrease its brightness level with my external keyboard.
+- `phone-screen`  
+  Starts [scrcpy](https://github.com/Genymobile/scrcpy)
+  with sensible default parameters for my setup.
