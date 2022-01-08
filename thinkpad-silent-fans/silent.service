@@ -1,0 +1,8 @@
+[Unit]
+Description=Silent Fan Control
+
+[Service]
+ExecStart=/usr/local/libexec/silent/init.sh
+
+[Install]
+WantedBy=multi-user.target

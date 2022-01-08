@@ -1,0 +1,8 @@
+[Unit]
+Description=Gnirehtet Device Autorun
+
+[Service]
+ExecStart=bash /usr/local/libexec/gnirehtet-autorun/service.sh
+
+[Install]
+WantedBy=multi-user.target
