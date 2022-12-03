@@ -11,6 +11,11 @@ SvclPath := "C:\Users\Jonas\bin\svcl-x64\svcl.exe"
 ; Configure this to the name of the microphone in SoundVolumeView.
 MicName := "Focusrite USB Audio\Device\Analogue 1 + 2\Capture"
 
+; Make sure the state of SCRLK is correct when starting this script.
+ToggleScrlk()
+
+; The user may toggle the state of SCRLK, e.g. if the LED is annoying.
+
 MuteMic() {
   global SvclPath, MicName
   ; Starts SoundVolumeView which toggles the state of the microphone.
