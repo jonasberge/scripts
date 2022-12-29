@@ -6,3 +6,9 @@ Disables the left windows key, useful in games.
 Mutes the microphone when pressing the PAUSE button.
 Current microphone state is reflected
 after pressing the button by the state of the SCRLK key.
+
+## Other windows scripts
+
+* `obs64.bat`  
+Can start OBS minimized on startup by putting this in the startup folder.
+OBS may also be started as administrator like this.
