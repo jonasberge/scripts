@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; SVCL (command line version): https://www.nirsoft.net/utils/sound_volume_command_line.html
 
 ; Path to SVCL.
-SvclPath := "C:\Users\Jonas\bin\svcl-x64\svcl.exe"
+SvclPath := "W:\bin\svcl-x64\svcl.exe"
 ; Configure this to the name of the microphone in SoundVolumeView.
 MicName := "Focusrite USB Audio\Device\Analogue 1 + 2\Capture"
 
